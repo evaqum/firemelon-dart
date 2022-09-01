@@ -1,6 +1,7 @@
 name: firemelon
 description: a simple password generator.
 version: 1.0.0
+repository: https://github.com/evaqum/firemelon-dart
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
