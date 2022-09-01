@@ -85,7 +85,7 @@ class Firemelon {
     final numberIndex = random.nextInt(complexity);
     return List.generate(complexity, (i) {
       if (useNumber && i == numberIndex) {
-        return randomNumber(random.nextInt(complexity + 1) + 3);
+        return randomNumber(random.nextInt(complexity - 2) + 3);
       }
       return randomWord();
     });
